@@ -1,5 +1,6 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Hi+there!;I%E2%80%99m+Omar+Elsherbiny)](https://git.io/typing-svg)
+
 # 💫 About Me:
-- Hi, I’m Omar Elsherbiny
 - I’m a programmer and photographer in my free time
 - I’m aspiring to become a full-stack developer
 - 📫 Contact me trhough my Discord: [sherbo2007](https://discord.com/users/618443479856447500)
