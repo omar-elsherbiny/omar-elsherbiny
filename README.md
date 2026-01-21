@@ -4,7 +4,7 @@
 - I’m a programmer and photographer in my free time
 - I’m aspiring to become a full-stack developer
 - 📫 Contact me through my Discord: [sherbo2007](https://discord.com/users/618443479856447500)
-- 🌱 I’m currently learning Node.js
+- 🌱 I’m currently learning Typescript & React
 
 
 # 💻 Tech Stack:
