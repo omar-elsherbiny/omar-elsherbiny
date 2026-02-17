@@ -20,4 +20,6 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=omar-elsherbiny&icon=0&color=0)](https://visitcount.itsvg.in)
 
+![](https://komarev.com/ghpvc/?username=omar-elsherbiny)
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
