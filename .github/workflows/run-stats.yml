@@ -18,7 +18,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&show_icons=true&hide_border=true&count_private=true
+          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&show_icons=true&count_private=true&hide_border=true
           path: profile/stats.svg
           token: ${{ secrets.GH_TOKEN }}
 
@@ -26,7 +26,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&layout=compact&langs_count=6&hide_border=true
+          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&layout=donut-vertical&langs_count=8&hide_border=true
           path: profile/top-langs.svg
           token: ${{ secrets.GH_TOKEN }}
 
