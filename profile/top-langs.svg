@@ -132,7 +132,7 @@
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
           stroke-dashoffset="0"
-          size="96.0445764458759"
+          size="95.923594971306"
           data-testid="lang-donut"
         />
       </g>
@@ -146,8 +146,8 @@
           stroke="#555555"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="482.7726972472112"
-          size="1.759359147587653"
+          stroke-dashoffset="482.1645780284444"
+          size="1.7569306962720639"
           data-testid="lang-donut"
         />
       </g>
@@ -161,8 +161,8 @@
           stroke="#f1e05a"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="491.616200884151"
-          size="0.6858356892627244"
+          stroke-dashoffset="490.99587493768394"
+          size="0.6848890271874161"
           data-testid="lang-donut"
         />
       </g>
@@ -176,8 +176,8 @@
           stroke="#e34c26"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="495.06358706488294"
-          size="0.6466236457779808"
+          stroke-dashoffset="494.43850267582195"
+          size="0.6457311082620144"
           data-testid="lang-donut"
         />
       </g>
@@ -191,8 +191,8 @@
           stroke="#663399"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="498.31387201722464"
-          size="0.3881310356407275"
+          stroke-dashoffset="497.6843012452785"
+          size="0.3875952966329103"
           data-testid="lang-donut"
         />
       </g>
@@ -206,8 +206,8 @@
           stroke="#f34b7d"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="500.2648313935432"
-          size="0.2062334289538904"
+          stroke-dashoffset="499.63256770362716"
+          size="0.20594876402771642"
           data-testid="lang-donut"
         />
       </g>
@@ -218,11 +218,11 @@
           cy="100"
           r="80"
           fill="transparent"
-          stroke="#fedf5b"
+          stroke="#DA5B0B"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="501.3014736740651"
-          size="0.19310348321312934"
+          stroke-dashoffset="500.66777910216376"
+          size="0.20247319470197733"
           data-testid="lang-donut"
         />
       </g>
@@ -233,11 +233,11 @@
           cy="100"
           r="80"
           fill="transparent"
-          stroke="#3D6117"
+          stroke="#fedf5b"
           stroke-width="25"
           stroke-dasharray="502.6548245743669"
-          stroke-dashoffset="502.27211764885703"
-          size="0.07613712368798572"
+          stroke-dashoffset="501.6855203838031"
+          size="0.19283694160990025"
           data-testid="lang-donut"
         />
       </g>
@@ -250,7 +250,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 96.04%
+        Python 95.92%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -264,7 +264,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 0.69%
+        JavaScript 0.68%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
@@ -290,16 +290,16 @@
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#fedf5b" />
+      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Cython 0.19%
+        Jupyter Notebook 0.20%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
-      <circle cx="5" cy="6" r="5" fill="#3D6117" />
+      <circle cx="5" cy="6" r="5" fill="#fedf5b" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TeX 0.08%
+        Cython 0.19%
       </text>
     </g>
   </g></g>
