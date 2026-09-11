@@ -6,35 +6,28 @@ on:
   workflow_dispatch: # Allows manual testing
 
 jobs:
-  build:
+  metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Stats Card
+        uses: lowlighter/metrics@latest
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&show_icons=true&count_private=true&hide_border=true
-          path: profile/stats.svg
+          filename: profile/stats.svg
           token: ${{ secrets.GH_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          config_timezone: Africa/Cairo
+          config_order: base.header, base.activity, base.community, base.repositories
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Generate Top Languages Card
+        uses: lowlighter/metrics@latest
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&theme=catppuccin_mocha&layout=donut-vertical&langs_count=8&count_private=true&hide_border=true
-          path: profile/top-langs.svg
+          filename: profile/top-langs.svg
           token: ${{ secrets.GH_TOKEN }}
-
-      - name: Commit and Push cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p profile
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
+          base: ""
+          plugin_languages: yes
+          plugin_languages_details: bytes-compact, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
