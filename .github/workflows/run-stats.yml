@@ -40,16 +40,17 @@ jobs:
           # Map commit authoring across your GitHub username, name, and noreply email
           commits_authoring: 137009632+omar-elsherbiny@users.noreply.github.com, omar-elsherbiny, Omar Elsherbiny
 
-          plugin_languages_skipped: >-
-            Image-Face-Aligner,
-            Digital-Logic-Sim-Computer,
+          repositories_skipped: Image-Face-Aligner, Digital-Logic-Sim-Computer
+          # plugin_languages_skipped: >-
+          #   Image-Face-Aligner,
+          #   Digital-Logic-Sim-Computer,
 
           # In-depth language configuration
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          # plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 300 # Global timeout ceiling in seconds
           plugin_languages_analysis_timeout_repositories: 45 # Per-repo diff timeout ceiling
-          plugin_languages_categories: markup, programming # Includes Markdown, HTML, XML, etc. alongside code[cite: 1]
+          # plugin_languages_categories: markup, programming # Includes Markdown, HTML, XML, etc. alongside code[cite: 1]
           plugin_languages_details: bytes-compact, percentage
           plugin_languages_sections: most-used
           plugin_languages_limit: 10 
