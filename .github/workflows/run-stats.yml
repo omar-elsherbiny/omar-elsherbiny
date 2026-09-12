@@ -35,7 +35,7 @@ jobs:
           config_timezone: Africa/Cairo
           
           # Diagnostic logs to see all repositories and diff counts
-          # debug: yes
+          debug: yes
 
           # Map commit authoring across your GitHub username, name, and noreply email
           commits_authoring: 137009632+omar-elsherbiny@users.noreply.github.com, omar-elsherbiny, Omar Elsherbiny
@@ -43,8 +43,6 @@ jobs:
           plugin_languages_skipped: >-
             Image-Face-Aligner,
             Digital-Logic-Sim-Computer,
-            Basic-Node-Site,
-            cambridge-mcq-checker
 
           # In-depth language configuration
           plugin_languages: yes
