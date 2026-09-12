@@ -35,10 +35,16 @@ jobs:
           config_timezone: Africa/Cairo
           
           # Diagnostic logs to see all repositories and diff counts
-          debug: yes
+          # debug: yes
 
           # Map commit authoring across your GitHub username, name, and noreply email
           commits_authoring: 137009632+omar-elsherbiny@users.noreply.github.com, omar-elsherbiny, Omar Elsherbiny
+
+          plugin_languages_skipped: >-
+            Image-Face-Aligner,
+            Digital-Logic-Sim-Computer,
+            Basic-Node-Site,
+            cambridge-mcq-checker
 
           # In-depth language configuration
           plugin_languages: yes
@@ -48,6 +54,6 @@ jobs:
           plugin_languages_categories: markup, programming # Includes Markdown, HTML, XML, etc. alongside code[cite: 1]
           plugin_languages_details: bytes-compact, percentage
           plugin_languages_sections: most-used
-          plugin_languages_limit: 10 # Increases limit to prevent languages collapsing into 'Other'[cite: 1]
+          plugin_languages_limit: 10 
           plugin_languages_other: yes
           plugin_languages_threshold: 0%
